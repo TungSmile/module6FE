@@ -1,0 +1,36 @@
+.pagination-container {
+    margin-top: 20px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; /* Đẩy phân trang về phía bên phải */
+}
+
+.pagination {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button.active {
+    background-color: #555;
+}
+
+.pagination button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    pointer-events: none;
+}

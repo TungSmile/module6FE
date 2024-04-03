@@ -1,0 +1,110 @@
+body-showImages {
+    font-family: Arial;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img-showImages {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-showImages {
+    position: relative;
+    background-color: #7F7F7F;
+    border: none !important;
+}
+
+.container-showImages2 {
+    position: relative;
+    background-color: #7F7F7F;
+    border: none !important;
+    width: 100%;
+    height: 100%;
+}
+
+/* Hide the images by default */
+.mySlides-showImages {
+    display: flex;
+    width: 200px;
+    text-align: center;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor-showImages {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev-showImages,
+.next-showImages {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: transparent;
+}
+
+/* Position the "next button" to the right */
+.next-showImages {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-showImages:hover,
+.next-showImages:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext-showImages {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container-showImages {
+    text-align: center;
+    background-color: #7F7F7F;
+    padding: 2px 16px;
+    color: white;
+    width: 400px;
+}
+
+.row-showImages:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column-showImages {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo-showImages {
+    opacity: 0.6;
+}
+
+.active-showImages,
+.demo-showImages:hover {
+    opacity: 1;
+}
+
+.modal-backdrop.show{opacity:.5}
